@@ -1,0 +1,17 @@
+body {
+  color: #fff;
+  position: relative;
+  background-color: #000;
+  background-color: rgba(51, 69, 152, 0.1);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-image: url('../images/bg_road.jpg');
+  background-size: cover;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  body {
+    background-image: url('../images/bg_road@2x.jpg');
+    background-size: 1400px 934px;
+  }
+}
