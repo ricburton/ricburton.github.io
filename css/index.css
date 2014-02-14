@@ -30,14 +30,14 @@ a:hover {
 /*http://www.adamkaplan.me/grid/*/
 
 .container {
-  margin: 0 auto;
+  margin: 30px auto;
   max-width: 960px;
   width: 90%;
 }
 
 .column {
   float: left;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 
 .column:first-child {
@@ -155,10 +155,14 @@ h4 {
   color:#D8D8D8;
 }
 
-.blurb {
+/*.project img {
+  border: solid 1px #D8D8D8;
+*/
+
+.project.blurb {
   text-align: justify;
 }
 
-.more {
+.project.more {
 
 }
