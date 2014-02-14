@@ -4,26 +4,17 @@
   box-sizing: border-box;
 }
 
-/* Fonts */
-/*
-@font-face {
-    font-family: 'Avenir Next';
-    font-weight: normal;
-    font-style: normal;
-    src: url('fonts/avenir_next.ttc') format("truetype");
-}*/
-
 body {
   position: relative;
   background-color: #fff;
-  font-family: 'Avenir Next', Helvetica, sans-serif;
+  font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif;
   color:#222;
   text-rendering: optimizeLegibility;
   font-weight: normal;
 }
 
 p {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 a {
@@ -61,6 +52,10 @@ a:hover {
   width: 30%;
 }
 
+.column.two-thirds {
+  width: 60%;
+}
+
 .column.half {
   width: 47.5%;
 }
@@ -86,7 +81,8 @@ a:hover {
 @media screen and (max-width: 1051px) {
   .column.full,
   .column.half,
-  .column.one-third
+  .column.one-third,
+  .column.two-thirds
   {
     float: none;
     margin: 0;
@@ -147,6 +143,16 @@ h4 {
   text-decoration: none;
   border-bottom: none;
   color: #333;
+}
+
+.hello {
+  padding-bottom: 50px;
+}
+
+.year {
+  font-size: 30px;
+  font-weight: 500;
+  color:#D8D8D8;
 }
 
 .blurb {
