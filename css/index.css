@@ -5,13 +5,13 @@
 }
 
 /* Fonts */
-
+/*
 @font-face {
     font-family: 'Avenir Next';
     font-weight: normal;
     font-style: normal;
     src: url('fonts/avenir_next.ttc') format("truetype");
-}
+}*/
 
 body {
   position: relative;
