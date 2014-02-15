@@ -153,11 +153,8 @@ h4 {
   font-size: 30px;
   font-weight: 500;
   color:#D8D8D8;
+  margin:25px 0 10px;
 }
-
-/*.project img {
-  border: solid 1px #D8D8D8;
-*/
 
 .project.blurb {
   text-align: justify;
