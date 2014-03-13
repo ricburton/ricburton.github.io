@@ -4,9 +4,13 @@
   box-sizing: border-box;
 }
 
+html, html a {
+  -webkit-font-smoothing: antialiased;
+}
+
 body {
   position: relative;
-  background-color: #fff;
+  background-color: #FFF;
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif;
   color:#222;
   text-rendering: optimizeLegibility;
