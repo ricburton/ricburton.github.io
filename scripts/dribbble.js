@@ -15,9 +15,9 @@
 // Define Global Vars
 var dribbble = {
 	// How many shots to display
-	shotLimit : 3,
+	shotLimit : 6,
 	// The div ID to draw to
-	element : 'shots',
+	element : 'dribbble',
 	// How many users we're loading
 	usersToLoad : 0,
 	// All API results
@@ -37,7 +37,7 @@ var dribbble = {
 function getShotsForID (users, elm, limit, callback)
 {	
 	/* Initialise funcation variables */
-	dribbble.shotLimit = (!limit)? 3 : limit;
+	dribbble.shotLimit = (!limit)? 6 : limit;
 	dribbble.element = (!elm)? 'shots' : elm;
 	dribbble.complete = callback || dribbble.complete;
 
